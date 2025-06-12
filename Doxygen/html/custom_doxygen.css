@@ -1,0 +1,43 @@
+
+/* Fondo general */
+body {
+    background-color: #e6f4e6;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+#titlearea {
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px;
+}
+
+/* Logo más pequeño */
+#projectlogo img {
+    height: 60px;
+}
+
+/* Nombre del proyecto */
+#projectname {
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Estilos de navegación ocultos */
+#nav-path, #nav-tree, .tabs, .tablist {
+    display: none;
+}
+
+/* Contenido */
+.contents {
+    margin: 20px;
+}
+
+/* Código */
+pre.fragment {
+    background-color: #f4f4f4;
+    border-left: 4px solid #2e7d32;
+    padding: 10px;
+    border-radius: 5px;
+}
